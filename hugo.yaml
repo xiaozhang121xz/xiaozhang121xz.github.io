@@ -2,22 +2,14 @@ baseURL: "https://xiaozhang121xz.github.io/"
 languageCode: "zh-cn"
 title: "技术札记"
 theme: "PaperMod"
-defaultContentLanguage: "zh"
+defaultContentLanguage: zh
 defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
 enableEmoji: true
-
 hasCJKLanguage: true
-enableInlineShortcodes: true
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+  home: [HTML, RSS, JSON]
 
 taxonomies:
   category: categories
@@ -34,28 +26,27 @@ menu:
       name: 归档
       url: /archives/
       weight: 2
-    - identifier: search
-      name: 搜索
-      url: /search/
-      weight: 3
     - identifier: categories
       name: 分类
       url: /categories/
-      weight: 4
+      weight: 3
     - identifier: tags
       name: 标签
       url: /tags/
-      weight: 5
+      weight: 4
     - identifier: about
       name: 关于
       url: /about/
+      weight: 5
+    - identifier: github
+      name: GitHub
+      url: "https://github.com/xiaozhang121xz"
       weight: 6
 
 params:
   env: production
   title: "技术札记"
-  description: "关于 Agent、Harness、LLM 与 AI 工程实践的中文知识库。"
-  keywords: [Agent, Harness, LLM, AI, 大语言模型, 人工智能]
+  description: "关于 Agent、Harness、LLM 与 AI 工程实践的中文技术博客。"
   author: "xiaozhang121xz"
   defaultTheme: auto
   disableThemeToggle: false
@@ -70,21 +61,11 @@ params:
   ShowToc: true
   TocOpen: false
   UseHugoToc: true
-  comments: false
   hideFooter: false
-  displayFullLangName: true
   DateFormat: "2006-01-02"
   mainSections: ["posts"]
   assets:
-    disableHLJS: false
-  homeInfoParams:
-    Title: "记录 Agent、Harness 与 LLM 的工程实践"
-    Content: >
-      这里是一个持续整理中的中文技术知识库。
-      关注 Agent 系统设计、Harness 工程、上下文管理、大语言模型与开发实践。
-  socialIcons:
-    - name: github
-      url: "https://github.com/xiaozhang121xz"
+    disableHLJS: true
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -101,6 +82,5 @@ markup:
   highlight:
     noClasses: false
     codeFences: true
-    guessSyntax: true
     lineNos: false
-    style: monokai
+    style: github

@@ -1,6 +1,6 @@
 ---
 title: "搜索"
 layout: "search"
-summary: "搜索站内文章"
-placeholder: "输入关键词搜索..."
+url: "/search/"
+summary: "站内搜索"
 ---

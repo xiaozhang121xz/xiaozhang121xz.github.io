@@ -1,17 +1,10 @@
 ---
 title: "关于"
-description: "关于这个技术知识库"
-slug: "about"
 date: 2026-11-22
+layout: "single"
 ---
 
-你好，欢迎来到我的技术札记。
+这里是 **技术札记**，用于持续沉淀 Agent、Harness、LLM 相关知识，把零散的阅读、实践和思考整理成可检索、可复用的文章。
 
-这里主要记录和整理以下主题：
-
-- **Agent**：智能体架构、规划、工具调用与多 Agent 协作。
-- **Harness**：围绕模型运行的工程系统，包括上下文组装、工具、状态管理与执行控制。
-- **LLM**：大语言模型基础、推理、提示词、评测与应用实践。
-- **工程实践**：开发工具链、自动化、部署与踩坑记录。
-
-本站使用 Hugo 与 PaperMod 构建，文章以 Markdown 保存，源文件托管在 GitHub。
+- GitHub：[xiaozhang121xz](https://github.com/xiaozhang121xz)
+- 主题：Agent 系统、上下文工程、大语言模型与 AI 工程实践
