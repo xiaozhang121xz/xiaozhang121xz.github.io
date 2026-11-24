@@ -1,6 +1,6 @@
 baseURL: "https://xiaozhang121xz.github.io/"
 languageCode: "zh-cn"
-title: "技术札记"
+title: "小驴随笔"
 theme: "PaperMod"
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: false
@@ -41,8 +41,8 @@ menu:
 
 params:
   env: production
-  title: "技术札记"
-  description: "关于 Agent、Harness、LLM 与 AI 工程实践的中文技术博客。"
+  title: "小驴随笔"
+  description: "这里是关于小驴同学在 Agent、LLM 、电价预测、VLA实践中的学习以及思考的博客。"
   author: "xiaozhang121xz"
   defaultTheme: auto
   disableThemeToggle: false
